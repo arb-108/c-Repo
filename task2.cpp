@@ -59,9 +59,7 @@ public:
         if(!isEmpty()){
         return data[rear];
         }
-    };
-    // Return item at the rear of the queue
-    // Queue status operations
+    }
     bool isEmpty() const{
         if(front==-1 && rear==-1){
             return true;
@@ -69,7 +67,6 @@ public:
             return false;
         }
     }
-    // Check if the queue is empty
     bool isFull() const{
         if(((rear+1) % MAX_SIZE)==front){
             return true;
@@ -83,6 +80,7 @@ public:
         if(!isEmpty()){
             for(int i=front;i<=rear;i++){
                 cout<<data[i]<<endl;
+                //cout << "hello";
             }
         }
     }
@@ -102,4 +100,5 @@ int main()
     obj.enQueue(5);
     obj.showStructure();
     cout << "hello" << endl;
+    cout << "hello1" << endl;
 }
