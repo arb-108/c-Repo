@@ -105,4 +105,5 @@ int main()
     cout << "hello3" << endl;
     cout << "hello5" << endl;
     cout << "v6" << endl;
+    cout << "arb-commit" << endl;
 }
