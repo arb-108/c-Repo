@@ -93,7 +93,6 @@ public:
                     cout << endl;
                 }
             }
-            // cout << "top=" << top << endl;
         }
         else
         {

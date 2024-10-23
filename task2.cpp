@@ -77,10 +77,6 @@ public:
             return false;
         }
     }
-    // Check if the queue is full
-    // Outputs the data in the queue.
-    // If the queue is empty, output "Empty Queue".
-    // If not, display elements from front to rear.
     void showStructure() const{
         cout<<"front :"<<front<<endl;
         cout<<"rear :"<<rear<<endl;
