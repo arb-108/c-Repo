@@ -101,4 +101,6 @@ int main()
     obj.showStructure();
     cout << "hello" << endl;
     cout << "hello1" << endl;
+    cout << "hello2" << endl;
+    cout << "hello3" << endl;
 }
